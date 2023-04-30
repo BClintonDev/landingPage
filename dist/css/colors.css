@@ -1,0 +1,233 @@
+:root{
+  /* Transparent */
+  --transparent: transparent;
+  --bg-body: #FFFFFF;
+  --fg-body: #333333;
+  --bg-website: #FFFFFF;
+
+  /* White */
+  --soft-white: #fff;
+  --light-white: #f2f2f2;
+  --medium-white: #d9d9d9;
+  --dark-white: #bfbfbf;
+  
+  /* GRISES */
+  --soft-gray: #f5f5f5;
+  --light-gray: #e5e5e5;
+  --medium-gray: #ccc;
+  --dark-gray: #777;
+
+  /* Black */
+  --soft-black: #999;
+  --light-black: #666;
+  --medium-black: #333;
+  --dark-black: #000;
+
+  /* ROSADOS */
+  --soft-pink: #ffd6dd;
+  --light-pink: #ffa5b8;
+  --medium-pink: #ff7f9e;
+  --dark-pink: #b3596d;
+
+  /* MARRON */
+  --soft-brown: #e5c2c2;
+  --light-brown: #d18b8b;
+  --medium-brown: #b45858;
+  --dark-brown: #662828;
+
+  /* ROJOS */
+  --soft-red: #ffb3b3;
+  --light-red: #ff8080;
+  --medium-red: #ff4d4d;
+  --dark-red: #800000;
+
+  /* Yellow */
+  --soft-yellow: #ffff80;
+  --light-yellow: #ffffb3;
+  --medium-yellow: #ffff4d;
+  --dark-yellow: #ffd700;
+
+  /* BEIGE */
+  --soft-beige: #faf2e8;
+  --light-beige: #f8d7b5;
+  --medium-beige: #e7aa56;
+  --dark-beige: #a77b37;
+
+  /* NARANJADO */
+  --soft-orange: #ffe3cc;
+  --light-orange: #ffd1a6;
+  --medium-orange: #ffbf80;
+  --dark-orange: #ff6600;  
+
+  /* VERDES */
+  --soft-green: #e6f4ea;
+  --light-green: #4ad393;
+  --medium-green: #24b47e;
+  --dark-green: #1a6d56;
+
+  /* TEAL */
+  --soft-teal: #c0e4e8;
+  --light-teal: #78cdd1;
+  --medium-teal: #2d969a;
+  --dark-teal: #205a5a;
+
+  /* AZULES */
+  --soft-blue: #c1ddeb;
+  --light-blue: #74b9ff;
+  --medium-blue: #2d98da;
+  --dark-blue: #153f5f;
+
+  /* Azul Claro */
+  --soft-blue-light: #f0f5f9;
+  --light-blue-light: #d1dfe6;
+  --medium-blue-light: #a4c4d4;
+  --dark-blue-light: #6590af;
+
+  /* MORADOS */
+  --soft-purple: #d8c7e3;
+  --light-purple: #b085f5;
+  --medium-purple: #9063cd;
+  --dark-purple: #553285;
+
+  /* Verde Neón */
+  --neon-green: #00ff00;
+  --neon-green-dark: #00cc00;
+  --neon-green-light: #33ff33;
+
+  /* Cian Neón */
+  --neon-cyan: #00ffff;
+  --neon-cyan-dark: #00cccc;
+  --neon-cyan-light: #33ffff;
+
+  /* Fucsia Neón */
+  --neon-fuchsia: #ff00ff;
+  --neon-fuchsia-dark: #cc00cc;
+  --neon-fuchsia-light: #ff33ff;
+
+  /* Naranja Neón */
+  --neon-orange: #ff9900;
+  --neon-orange-dark: #cc8000;
+  --neon-orange-light: #ffad33;
+}
+
+.dark-mode {
+  --bg-body: #0a2239;
+  --fg-body: #a3bed4;
+  --bg-website: #053a52;
+
+  /* Dark White */
+  --soft-white: #1f1f1f;
+  --light-white: #2b2b2b;
+  --medium-white: #404040;
+  --dark-white: #565656;
+
+  /* Dark Gray */
+  --soft-gray: #262626;
+  --light-gray: #333333;
+  --medium-gray: #555555;
+  --dark-gray: #999999;
+
+  /* Dark Black */
+  --soft-black: #333333;
+  --light-black: #808080;
+  --medium-black: #b3b3b3;
+  --dark-black: #e5e5e5;
+
+  /* Dark Pink */
+  --soft-pink: #b3596d;
+  --light-pink: #ff7f9e;
+  --medium-pink: #ffa5b8;
+  --dark-pink: #ffd6dd;
+  
+  /* MARRON */
+  --soft-brown: #662828;
+  --light-brown: #b24d4d;
+  --medium-brown: #8b4f4f;
+  --dark-brown: #6b4d4d;
+
+  /* ROJOS */
+  --soft-red: #800000;
+  --light-red: #ff4d4d;
+  --medium-red: #c43737;
+  --dark-red: #9c3b3b;
+
+  /* Yellow */
+  --soft-yellow: #ffd700;
+  --light-yellow: #ffff4d;
+  --medium-yellow: #b8b836;
+  --dark-yellow: #c7c747;
+
+  /* BEIGE */
+  --soft-beige: #3a3530;
+  --light-beige: #544b44;
+  --medium-beige: #a77b37;
+  --dark-beige: #6d5d4b;
+
+  /* NARANJADO */
+  --soft-orange: #ff6600;
+  --light-orange: #8b5413;
+  --medium-orange: #af5d1a;
+  --dark-orange: #ffbf80;
+
+  /* VERDES */
+  --soft-green: #24b47e;
+  --light-green: #1a6d56;
+  --medium-green: #2d443f;
+  --dark-green: #3e564e;
+
+  /* TEAL */
+  --soft-teal: #2d969a;
+  --light-teal: #205a5a;
+  --medium-teal: #305259;
+  --dark-teal: #2f6e7a;
+
+  /* AZULES */
+  --soft-blue: #34495e;
+  --light-blue: #1e6091;
+  --medium-blue: #2b7dd8;
+  --dark-blue: #2d98da;
+
+  /* Azul claro */
+  --soft-blue-light: #0a2239;
+  --light-blue-light: #1b3951;
+  --medium-blue-light: #3f668a;
+  --dark-blue-light: #7a9cb8;
+
+  /* MORADOS */
+  --soft-purple: #36273f;
+  --light-purple: #4b3f72;
+  --medium-purple: #9063cd;
+  --dark-purple: #553285;
+}
+
+.bg-blue{
+  background: var(--dark-blue);
+}
+
+.text-blue{
+  color: var(--dark-blue);
+}
+
+.bg-fuchsia-neon{
+  background: var(--neon-fuchsia-dark);
+}
+
+.text-fuchsia-neon{
+  color: var(--neon-fuchsia-dark);
+}
+
+.bg-green-neon{
+  background: var(--neon-green-dark);
+}
+
+.text-green-neon{
+  color: var(--neon-green-dark);
+}
+
+.bg-cyan-neon{
+  background: var(--neon-cyan-dark);
+}
+
+.text-cyan-neon{
+  color: var(--neon-cyan-dark);
+}
