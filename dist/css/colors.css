@@ -201,15 +201,33 @@
 }
 
 .bg-blue{
-  background: var(--dark-blue);
+  background: var(--medium-blue-light);
 }
 
 .text-blue{
-  color: var(--dark-blue);
+  color: var(--medium-blue-light);
 }
 
+.bg-teal{
+  background: var(--light-teal);
+}
+
+.text-teal{
+  color: var(--light-teal);
+}
+
+
+.bg-purple{
+  background: var(--dark-purple) !important;
+}
+
+.text-purple{
+  color: var(--dark-purple);
+}
+
+
 .bg-fuchsia-neon{
-  background: var(--neon-fuchsia-dark);
+  background: var(--neon-fuchsia-dark) !important;
 }
 
 .text-fuchsia-neon{
@@ -225,7 +243,7 @@
 }
 
 .bg-cyan-neon{
-  background: var(--neon-cyan-dark);
+  background: var(--neon-cyan-dark) !important;
 }
 
 .text-cyan-neon{

@@ -12,7 +12,7 @@ document.onreadystatechange = function () {
     setTimeout(() => {
       loader.classList.remove('show');
       setTimeout(() => {loader.style.display = "none";}, 1000);
-    }, 0);
+    }, 250);
   }
 };
 

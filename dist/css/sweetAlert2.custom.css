@@ -1,0 +1,112 @@
+/* TOAST - SWEET ALERT 2 */
+.dark-mode .swal2-popup {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: minmax(0, 100%);
+  width: 32em;
+  max-width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background: #252829 !important;
+  color: #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+
+/*  
+* ==========================================================
+* SWET ALERT2
+* ==========================================================
+* */
+
+/* SWEET ALERT - ERROR*/
+.swal2-popup.swal2-icon-error,
+.swal2-toast.swal2-icon-error {
+  background: #dc3545 !important;
+}
+
+.swal2-toast.swal2-icon-error .swal2-title {
+  color: #f7e9e9 !important;
+}
+
+.swal2-popup.swal2-icon-error .swal2-html-container,
+.swal2-toast.swal2-icon-error .swal2-html-container {
+  color: #ccc !important;
+}
+
+.dark-mode .swal2-popup.swal2-icon-error,
+.dark-mode .swal2-toast.swal2-icon-error {
+  background: #791b2b !important;
+}
+
+
+
+
+/* SWEET ALERT - INFO*/
+.swal2-popup.swal2-icon-info,
+.swal2-toast.swal2-icon-info {
+  background: #335880 !important;
+}
+
+.swal2-toast.swal2-icon-info .swal2-title {
+  color: #d8e2e4 !important;
+}
+
+
+.dark-mode .swal2-popup.swal2-icon-info,
+.dark-mode .swal2-toast.swal2-icon-info {
+  background: #335880 !important;
+}
+
+
+/* SWEET ALERT - WARNING*/
+.swal2-popup.swal2-icon-warning,
+.swal2-toast.swal2-icon-warning {
+  background: #f6c500 !important;
+}
+
+.swal2-popup.swal2-icon-warning .swal2-icon-show,
+.swal2-toast.swal2-icon-warning .swal2-icon-show {
+  border-color: #f7ecc2;
+  color: #ecebe1;
+}
+
+.dark-mode .swal2-popup.swal2-icon-warning .swal2-icon-show,
+.dark-mode .swal2-toast.swal2-icon-warning .swal2-icon-show {
+  border-color: #ebd581;
+  color: #c9c39f;
+}
+
+.swal2-popup.swal2-icon-warning .swal2-title,
+.swal2-toast.swal2-icon-warning .swal2-title {
+  color: #1b1b19 !important;
+}
+
+.swal2-popup.swal2-icon-warning .swal2-html-container,
+.swal2-toast.swal2-icon-warning .swal2-html-container {
+  color: #1b1b19 !important;
+}
+
+.dark-mode .swal2-popup.swal2-icon-warning,
+.dark-mode .swal2-toast.swal2-icon-warning {
+  background: #e49013 !important;
+}
+
+
+/* SWEET ALERT - SUCCESS*/
+.swal2-popup.swal2-icon-success,
+.swal2-toast.swal2-icon-success {
+  background: #269440 !important;
+}
+
+.swal2-toast.swal2-icon-success .swal2-title {
+  color: #dbe6d9 !important;
+}
+
+.dark-mode .swal2-popup.swal2-icon-success,
+.dark-mode .swal2-toast.swal2-icon-success {
+  background: #037256 !important;
+}

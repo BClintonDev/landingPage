@@ -30,3 +30,52 @@ body {
 .w-max-400px{
   max-width: 400px;
 }
+
+
+/*  
+* ==========================================================
+* CUSTOM NAV
+* ==========================================================
+* */
+.custom-nav{
+  background: rgba(15, 15, 29, 0.85);
+  border-radius: 0.75rem;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .custom-nav{
+    border-radius: 50rem;
+    max-width: max-content;
+    margin: 0 auto !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  a.btn-custom,
+  ul.navbar-nav a{
+    background: #0d668f;
+    border-radius: 25rem;
+    margin-right: 7px;
+    padding: 7px 15px !important;
+  }
+}
+
+
+
+/*  
+* ==========================================================
+* FORM CONTROLS
+* ==========================================================
+* */
+
+.dark-mode input[type="time"]::-webkit-calendar-picker-indicator,
+.dark-mode input[type="datetime"]::-webkit-calendar-picker-indicator,
+.dark-mode input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.dark-mode .form-control:disabled,
+.dark-mode .form-control[readonly] {
+  background-color: #1f1e1e !important;
+  opacity: 1;
+}
