@@ -197,7 +197,28 @@
   --soft-purple: #36273f;
   --light-purple: #4b3f72;
   --medium-purple: #9063cd;
-  --dark-purple: #553285;
+  --dark-purple: #5c2d9c;
+
+  
+  /* Verde Neón */
+  --neon-green: #00ff00;
+  --neon-green-dark: #00cc00;
+  --neon-green-light: #33ff33;
+
+  /* Cian Neón */
+  --neon-cyan: #00ffff;
+  --neon-cyan-dark: #00cccc;
+  --neon-cyan-light: #33ffff;
+
+  /* Fucsia Neón */
+  --neon-fuchsia: #ff00ff;
+  --neon-fuchsia-dark: #b40bb4;
+  --neon-fuchsia-light: #ff33ff;
+
+  /* Naranja Neón */
+  --neon-orange: #ff9900;
+  --neon-orange-dark: #cc8000;
+  --neon-orange-light: #ffad33;
 }
 
 .bg-blue{

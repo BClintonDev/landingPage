@@ -75,7 +75,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var fecha = dateInput.value;
     console.log("fecha", fecha);
     if(fecha == "2023-05-01"){
-      console.log("accedido");
       loadingBar.classList.add("show");
       
       setTimeout(() => {
