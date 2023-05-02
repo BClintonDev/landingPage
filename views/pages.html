@@ -13,7 +13,7 @@
         </li>
       </ul>
     </div>
-    <a class="navbar-brand btn-custom" href="#"><i class="bi bi-arrow-bar-up me-1"></i> Subir</a>
+    <a class="navbar-brand bg-purple btn-circle" style="padding: 2px;" href="#"><i class="bi bi-arrow-bar-up"></i></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBottom" aria-controls="navbarBottom" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,8 +22,61 @@
 
 <div class="content overflow-hidden mb-3">
   <section class="overflow-hidden mb-4">
+    <div class="temporizador-container">
+      <div class="temporizador-item">
+        <span id="months">00</span>
+        <p>Meses</p>
+      </div>
+      <div class="temporizador-item">
+        <span id="weeks">00</span>
+        <p>Semanas</p>
+      </div>
+      <div class="temporizador-item">
+        <span id="days">00</span>
+        <p>Días</p>
+      </div>
+      <div class="temporizador-item">
+        <span id="hours">00</span>
+        <p>Horas</p>
+      </div>
+      <div class="temporizador-item">
+        <span id="minutes">00</span>
+        <p>Minutos</p>
+      </div>
+      <div class="temporizador-item">
+        <span id="seconds">00</span>
+        <p>Segundos</p>
+      </div>
+    </div>  
+    
+    <div class="music-player-container d-none">
+      <div class="title-music-container">
+        <h4 class="song-title">Father</h4>
+        <span class="song-author">Diamond Eyes</span>
+      </div>
+      <div class="controls-music-container">
+        <div class="progress-song-container">
+          <div class="progress-bar">
+            <span class="progress"></span>
+          </div>
+        </div>
+        <div class="time-container">
+          <span class="time-left" id="CurrentSongTime"></span>
+          <span class="time-left" id="SongLength"></span>
+        </div>
+      </div>
+      <audio controls preload="metadata" src="dist/audio/Thinking_Out_Loud.mp3"></audio>
+      <div class="main-song-controls">
+        <img src="lib/musicPlayer/Backward.svg" alt="" class="icon" id="Back10">
+        <img src="lib/musicPlayer/Play.svg" alt="" class="icon" id="PlayPause">
+        <img src="lib/musicPlayer/Forward.svg" alt="" class="icon" id="Plus10">
+      </div>
+    </div>
+  </section>
+ 
+  <section class="overflow-hidden mb-4">
     <h2 class="text-center" data-aos="zoom-in-down">Titulo de la sección</h2>
-    <div class="row g-2">
+    <div class="row g-3">
       <div class="col-md-4 col-sm-6" data-aos="zoom-in-right" data-aos-duration="1000">
         <div class="card card-body overflow-hidden  bg-purple d-flex flex-column justify-content-center align-items-center">
           <i class="bi bi-chat-heart-fill icon-card"></i>
@@ -78,7 +131,7 @@
 
   <section class="overflow-hidden mb-4">
     <h2 class="text-center">Titulo de la sección</h2>
-    <div class="row g-2">
+    <div class="row g-3">
       <div class="col-md-4 col-sm-6" data-aos="zoom-out-left" >
         <div class="card card-body overflow-hidden bg-fuchsia-neon d-flex flex-column justify-content-center align-items-center">
           <i class="bi bi-chat-heart-fill icon-card"></i>

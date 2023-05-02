@@ -1,7 +1,7 @@
 .loading-bar {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 5px;
+  height: 8px;
   overflow: hidden;
   display: none;
   transition: all 1.5s ease-in-out;

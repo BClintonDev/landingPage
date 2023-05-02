@@ -20,7 +20,7 @@ function sweetAlertConfig($dataconfig){
       popup: 'animate__animated animate__bounceInRight'
     },
     hideClass: {
-      popup: 'animate__animated animate__backOutDown'
+      popup: 'animate__animated animate__backOutRight'
     }
   });
 }

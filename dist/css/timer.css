@@ -1,0 +1,54 @@
+.temporizador-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  background: var(--dark-red);
+  border-radius: 0.7rem;
+}
+
+
+.temporizador-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.temporizador-item span {
+  font-size: 3rem;
+}
+
+.temporizador-item p {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+
+
+@media (max-width: 768px) {
+  .temporizador-container{
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .temporizador-item span {
+    font-size: 2rem;
+  }
+  
+  .temporizador-item p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px){
+  .temporizador-item{
+    flex: 1 0 25% !important;
+    margin: 0.5rem;
+  }
+
+}

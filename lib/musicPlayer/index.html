@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player Grid</title>
+</head>
+<body>
+
+    <div class="music-player-container">
+        <div class="title-music-container">
+            <h4 class="song-title">Father</h4>
+            <span class="song-author">Diamond Eyes</span>
+        </div>
+        <div class="controls-music-container">
+            <div class="progress-song-container">
+                <div class="progress-bar">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <div class="time-container">
+                <span class="time-left" id="CurrentSongTime"></span>
+                <span class="time-left" id="SongLength"></span>
+            </div>
+        </div>
+        <audio controls preload="metadata" src="Audio.mp3"></audio>
+        <div class="main-song-controls">
+            <img src="Backward.svg" alt="" class="icon" id="Back10">
+            <img src="Play.svg" alt="" class="icon" id="PlayPause">
+            <img src="Forward.svg" alt="" class="icon" id="Plus10">
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
+</body>
+</html>
