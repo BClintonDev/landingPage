@@ -110,14 +110,18 @@ function logout(){
 function countdownTimer(birthdayDate) {
   const targetDate = new Date(birthdayDate).getTime();
   const today = new Date().getTime();
-  const timeDiff = targetDate - today;
+  let timeDiff = targetDate - today;
 
-  const seconds = Math.floor(timeDiff / 1000) % 60;
-  const minutes = Math.floor(timeDiff / (1000 * 60)) % 60;
-  const hours = Math.floor(timeDiff / (1000 * 60 * 60)) % 24;
-  const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-  const weeks = Math.floor(days / 7);
-  const months = Math.floor(days / 30);
+  let seconds = Math.floor(timeDiff / 1000) % 60;
+  let minutes = Math.floor(timeDiff / (1000 * 60)) % 60;
+  let hours = Math.floor(timeDiff / (1000 * 60 * 60)) % 24;
+  let days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+
+  let weeks = Math.floor(days / 7);
+  days %= 7;
+
+  let months = Math.floor(days / 30);
+  days %= 30;
 
   // Retornamos un objeto con los valores de tiempo restante
   return {months: months, weeks: weeks, days: days, hours: hours, minutes: minutes, seconds: seconds, timeDiff: timeDiff};
