@@ -483,3 +483,29 @@ function $(selector, context) {
 
   return elements;
 }
+
+function ajax(options){
+  if(options.before) options.before();
+
+  var request = new Request(options.url, {
+    method: options.method || 'POST',
+    body: options.data || null,
+    headers: new Headers()
+  });
+
+  fetch(request)
+  .then(res => {
+    if(res.status == 200){
+      return res.text();
+    } else {
+      throw 'Respuesta incorrecta del servidor';
+    }
+  })
+  .then(data => {
+    if(options.success) options.success(data);
+  })
+  .catch(error => {
+    console.error(error);
+    if(options.error) options.error(error);
+  });
+}

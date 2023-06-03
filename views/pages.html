@@ -1,3 +1,7 @@
+<div class="fixed-top p-4 d-flex justify-content-center">
+  <div class="contenteditable w-50" contenteditable='true'></div>
+</div>
+
 <nav class="navbar navbar-expand-md navbar-dark custom-nav fixed-bottom m-3">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarBottom">
@@ -9,7 +13,7 @@
           <a class="nav-link" href="#"><i class="bi bi-balloon-heart  me-1"></i> Favicon</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-calendar2-heart-fill me-1"></i> Calendar</a>
+          <a class="nav-link" href="javascript:void(0)"  onclick="descargarArchivo()"><i class="bi bi-calendar2-heart-fill me-1"></i> Calendar</a>
         </li>
       </ul>
     </div>
@@ -22,6 +26,7 @@
 
 <div class="content overflow-hidden mb-3">
   <section class="overflow-hidden mb-4">
+    <strong id="demo"></strong>
     <div class="temporizador-container">
       <div class="temporizador-item">
         <span id="months">00</span>
@@ -74,7 +79,7 @@
     </div>
   </section>
  
-  <section class="overflow-hidden mb-4">
+  <section class="overflow-hidden mb-4" data-aos="zoom-in-down">
     <h2 class="text-center" data-aos="zoom-in-down">Titulo de la sección</h2>
     <div class="row g-3">
       <div class="col-md-4 col-sm-6" data-aos="zoom-in-right" data-aos-duration="1000">
@@ -129,7 +134,7 @@
     </div> <!-- End row -->
   </section>
 
-  <section class="overflow-hidden mb-4">
+  <section class="overflow-hidden mb-4" data-aos="zoom-in-down">
     <h2 class="text-center">Titulo de la sección</h2>
     <div class="row g-3">
       <div class="col-md-4 col-sm-6" data-aos="zoom-out-left" >
